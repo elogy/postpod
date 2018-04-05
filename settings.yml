@@ -1,0 +1,15 @@
+# audio settings
+in_format: wav
+out_format: mp3
+bitrate: 192k
+
+# default ID3 tags
+album: My Podcast
+artist: Someone
+genre: Podcast
+url: http://url.example
+cover: 'static/cover.png'
+
+# Upload directory for FTP.
+upload_dir: '/path/to/remote/directory'
+

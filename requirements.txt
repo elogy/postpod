@@ -1,0 +1,3 @@
+paramiko
+PyYAML
+pydub>=0.21.0
