@@ -82,6 +82,10 @@ def convert(infile):
         # get current year
         id3_year = datetime.date.year
 
+        # create the export directory if it doesn't exist
+        if not os.path.exists(os.path.join(BASE_DIR, 'export')):
+            os.makedirs(os.path.join(BASE_DIR, 'export'))
+
         # build string for file handle
         export_path = os.path.join(BASE_DIR, 'export/'+outfile)
 
