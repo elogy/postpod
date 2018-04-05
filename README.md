@@ -29,7 +29,7 @@ cover: 'static/cover.png' # replace this file with your own cover
 upload_dir: '/path/to/remote/directory'
 ```
 
-If you with, put the credentials for SFTP inside the file `credentials.yml`. If you don't want to put your credentials as plain text into a file, just leave the values blank:
+If you wish, put the credentials for SFTP inside the file `credentials.yml`. If you don't want to put your credentials as plain text into a file, just leave the values blank:
 
 ```yml
 sftp_host: hostname.com
